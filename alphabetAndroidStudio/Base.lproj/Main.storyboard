@@ -18,13 +18,28 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="BWL-6i-kmN">
                                 <rect key="frame" x="43" y="276" width="328" height="149"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Страна знаний" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V85-sD-5Ha">
+                                <rect key="frame" x="103" y="197" width="209" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.95294117647058818" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BWL-6i-kmN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="Dek-mU-K63"/>
                             <constraint firstItem="BWL-6i-kmN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="232" id="F3l-P4-KWe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V85-sD-5Ha" secondAttribute="trailing" constant="102" id="GYb-0b-ET0"/>
+                            <constraint firstItem="BWL-6i-kmN" firstAttribute="top" secondItem="V85-sD-5Ha" secondAttribute="bottom" constant="43" id="HMl-5K-heR"/>
+                            <constraint firstItem="V85-sD-5Ha" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="TJf-mJ-00a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V85-sD-5Ha" secondAttribute="trailing" constant="102" id="Ud3-IL-jdG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BWL-6i-kmN" secondAttribute="trailing" constant="43" id="XVD-dR-QSi"/>
+                            <constraint firstItem="V85-sD-5Ha" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="153" id="Zwd-Qm-Pbg"/>
+                            <constraint firstItem="V85-sD-5Ha" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="he3-rZ-u02"/>
+                            <constraint firstItem="V85-sD-5Ha" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="jb5-ky-0VE"/>
+                            <constraint firstItem="V85-sD-5Ha" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mDY-UX-yzO"/>
+                            <constraint firstItem="V85-sD-5Ha" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="yYu-vd-gMg"/>
                         </constraints>
                     </view>
                 </viewController>
